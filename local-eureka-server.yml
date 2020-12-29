@@ -4,7 +4,7 @@ server:
 #Application Name
 spring:
   application:
-    name: eureka-server     # This is the name for the remote configuration file
+    name: local-eureka-server     # This is the name for the remote configuration file
 
 eureka:
   client:
