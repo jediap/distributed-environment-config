@@ -1,11 +1,6 @@
 server:
   port: 8761
 
-#Application Name
-spring:
-  application:
-    name: local-eureka-server     # This is the name for the remote configuration file
-
 eureka:
   client:
     #telling the server not to register himself in the service registry
