@@ -1,7 +1,10 @@
 server:
   port: 8761
 
-spring.application.name=eureka-server
+#Application Name
+spring:
+  application:
+    name: eureka-server     # This is the name for the remote configuration file
 
 eureka:
   client:
