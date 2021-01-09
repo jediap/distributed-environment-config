@@ -7,11 +7,11 @@ server:
 zuul:
   ignoredServices: '*'
   host:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 20000
+    #connect-timeout-millis: 20000
+    #socket-timeout-millis: 20000
     routes:
       local-service: # Service to create as sample
-        path: /local-service/** #path that will be intercepted
-        url: http://localhost:8091/ #which url the request will e mapped to
+        path: /local/** #path that will be intercepted
+        url: http://localhost:8091 #which url the request will e mapped to
         #stripPrefix: false  #if zuul should replace the "/sample/" segment
         #sensitiveHeaders:
