@@ -1,0 +1,2 @@
+server:
+  port: 8091 #the default port used for zuul service
