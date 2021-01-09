@@ -8,5 +8,5 @@ zuul:
  ignoredServices: '*'
   routes:
     local-service:
-      path: /local/**
+      path: /local-service/**
       url: http://localhost:8091
