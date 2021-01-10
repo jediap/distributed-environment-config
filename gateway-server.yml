@@ -9,11 +9,11 @@ zuul:
     client-service:
       path: /client-service/**
       serviceId: client-service
-      #url: http://localhost:8092
+      url: http://localhost:8092
     device-service:
       path: /device-service/**
       serviceId: device-service
-      #url: http://localhost:8091
+      url: http://localhost:8091
 
 #ribbon: # Eureka interface with Ribbon must be disabled so Ribbon will use the list of servers indicated below
 #  eureka:
