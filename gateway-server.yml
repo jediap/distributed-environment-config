@@ -6,6 +6,10 @@ server:
 # It just take all request to the path echo/ and fordward to the server localhost:8091
 zuul:
   routes:
+    client-service:
+      path: /client-service/**
+      serviceId: client-service
+      url: http://localhost:8090
     device-service:
       path: /device-service/**
       serviceId: device-service
