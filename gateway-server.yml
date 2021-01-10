@@ -9,20 +9,20 @@ zuul:
     client-service:
       path: /client-service/**
       serviceId: client-service
-      #url: http://localhost:8090
+      url: http://localhost:8092
     device-service:
       path: /device-service/**
       serviceId: device-service
-      #url: http://localhost:8091
+      url: http://localhost:8091
 
-ribbon: # Eureka interface with Ribbon must be disabled so Ribbon will use the list of servers indicated below
-  eureka:
-    enabled: false
-client-service:
-  ribbon:
-    listOfServers: http://localhost:8092
-device-service:
-  ribbon:
-    listOfServers: http://localhost:8091
+#ribbon: # Eureka interface with Ribbon must be disabled so Ribbon will use the list of servers indicated below
+#  eureka:
+#    enabled: false
+#client-service:
+#  ribbon:
+#    listOfServers: http://localhost:8092
+#device-service:
+#  ribbon:
+#    listOfServers: http://localhost:8091
     # listOfServers: http://localhost:8091,http://localhost:8092
     # Above is the list of servers and ports where the different instances of the service is deployed, so Ribbon can use them for load balancing
