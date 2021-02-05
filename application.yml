@@ -1,0 +1,22 @@
+mongo:
+  authentication_database: admin
+  host: localhost
+  port: 27017
+  db_name: mdb_event_store
+  user: user
+  pass: user
+
+kafka:
+  host: kafka
+  port: 29092
+  group_id: group_id
+  max_retries: 5
+  retry_backoff_ms: 50
+  acks: 1
+
+elastic:
+  host: localhost
+  user: user
+  password: password
+  port: 9200
+  index: index
