@@ -7,7 +7,7 @@ mongo:
   pass: user
 
 kafka:
-  host: kafka
+  host: localhost
   port: 29092
   group_id: group_id
   max_retries: 5
