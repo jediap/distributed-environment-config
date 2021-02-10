@@ -4,3 +4,10 @@ server:
 grpc:
   server:
     port: ${port:9093}
+
+
+kafka:
+  group_id: group_id
+
+elastic:
+  index: index
