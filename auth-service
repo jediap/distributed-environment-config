@@ -1,3 +1,9 @@
 
 server:
    port: ${port:8094}
+
+postgresql:
+  host: localhost
+  user: user
+  password: password
+  port: 9200
