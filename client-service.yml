@@ -7,7 +7,7 @@ grpc:
 
 
 kafka:
-  group_id: group_id
+  group_id: client_group
 
 elastic:
-  index: index
+  index: client_client
